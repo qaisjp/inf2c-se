@@ -14,6 +14,8 @@ public class ControllerImp implements Controller {
     private static Logger logger = Logger.getLogger("tourguide");
     private static final String LS = System.lineSeparator();
 
+    private final double waypointRadius, waypointSeparation;
+
     private String startBanner(String messageName) {
         return LS
                 + "-------------------------------------------------------------" + LS
@@ -23,6 +25,8 @@ public class ControllerImp implements Controller {
 
     public ControllerImp(double waypointRadius, double waypointSeparation) {
         // TODO
+        this.waypointRadius = waypointRadius;
+        this.waypointSeparation = waypointSeparation;
     }
 
     //--------------------------
