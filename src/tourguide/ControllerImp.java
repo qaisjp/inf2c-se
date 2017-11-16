@@ -22,6 +22,7 @@ public class ControllerImp implements Controller {
     }
     
     public ControllerImp(double waypointRadius, double waypointSeparation) {
+        // TODO
     }
 
     //--------------------------
@@ -33,24 +34,28 @@ public class ControllerImp implements Controller {
     
     @Override
     public Status startNewTour(String id, String title, Annotation annotation) {
+        // todo
         logger.fine(startBanner("startNewTour"));
         return new Status.Error("unimplemented");
     }
 
     @Override
     public Status addWaypoint(Annotation annotation) {
+        //todo
         logger.fine(startBanner("addWaypoint"));
         return new Status.Error("unimplemented");
     }
 
     @Override
     public Status addLeg(Annotation annotation) {
+        // todo
         logger.fine(startBanner("addLeg"));
         return new Status.Error("unimplemented");
     }
 
     @Override
     public Status endNewTour() {
+        // todo
         logger.fine(startBanner("endNewTour"));
         return new Status.Error("unimplemented");
     }
@@ -61,11 +66,14 @@ public class ControllerImp implements Controller {
 
     @Override
     public Status showTourDetails(String tourID) {
+        //todo
         return new Status.Error("unimplemented");
     }
   
     @Override
     public Status showToursOverview() {
+
+        //todo
         return new Status.Error("unimplemented");
     }
 
@@ -75,11 +83,14 @@ public class ControllerImp implements Controller {
     
     @Override
     public Status followTour(String id) {
+        // todo
         return new Status.Error("unimplemented");
     }
 
     @Override
     public Status endSelectedTour() {
+
+        //todo
         return new Status.Error("unimplemented");
     }
 
@@ -88,10 +99,13 @@ public class ControllerImp implements Controller {
     //--------------------------
     @Override
     public void setLocation(double easting, double northing) {
+        // todo
     }
 
     @Override
     public List<Chunk> getOutput() {
+        //todo
+
         return new ArrayList<Chunk>();
     }
 
