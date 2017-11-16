@@ -21,6 +21,7 @@ public abstract class Status {
 
     public static class OK extends Status {
         private OK() {
+
         }
 
         public boolean equals(Object o) {

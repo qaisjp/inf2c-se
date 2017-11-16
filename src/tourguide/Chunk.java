@@ -72,13 +72,20 @@ public class Chunk {
         }
 
         public boolean equals(Object o) {
-            if (!(o instanceof BrowseOverview)) return false;
+            if (!(o instanceof BrowseOverview)) {
+                return false;
+            }
+
             BrowseOverview oBO = (BrowseOverview) o;
             Iterator<OverviewLine> it1 = overviewLines.iterator();
             Iterator<OverviewLine> it2 = oBO.overviewLines.iterator();
+
             while (it1.hasNext() && it2.hasNext()) {
-                if (!(it1.next().equals(it2.next()))) return false;
+                if (!(it1.next().equals(it2.next()))) {
+                    return false;
+                }
             }
+
             return !(it1.hasNext()) && !(it2.hasNext());
         }
     }
