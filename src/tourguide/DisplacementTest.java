@@ -128,7 +128,7 @@ public class DisplacementTest {
     public void testNorthDistances() {
         for (int north = 0; north < 100; north++) {
             double distance = new Displacement(0, north).distance();
-            assertTrue("Distances where (east=0) should be equal to north", distance == north);
+            assertEquals("Distances where (east=0) should be equal to north", distance, north, EPS);
         }
     }
 
@@ -136,7 +136,7 @@ public class DisplacementTest {
     public void testEastDistances() {
         for (int east = 0; east < 100; east++) {
             double distance = new Displacement(east, 0).distance();
-            assertTrue("Distances where (north=0) should be equal to east", distance == east);
+            assertEquals("Distances where (north=0) should be equal to east", distance, east, EPS);
         }
     }
 
