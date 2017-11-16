@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package tourguide;
 
@@ -15,12 +15,12 @@ public class ControllerImp implements Controller {
     private static final String LS = System.lineSeparator();
 
     private String startBanner(String messageName) {
-        return  LS 
+        return LS
                 + "-------------------------------------------------------------" + LS
                 + "MESSAGE: " + messageName + LS
                 + "-------------------------------------------------------------";
     }
-    
+
     public ControllerImp(double waypointRadius, double waypointSeparation) {
         // TODO
     }
@@ -31,7 +31,7 @@ public class ControllerImp implements Controller {
 
     // Some examples are shown below of use of logger calls.  The rest of the methods below that correspond 
     // to input messages could do with similar calls.
-    
+
     @Override
     public Status startNewTour(String id, String title, Annotation annotation) {
         // todo
@@ -69,7 +69,7 @@ public class ControllerImp implements Controller {
         //todo
         return new Status.Error("unimplemented");
     }
-  
+
     @Override
     public Status showToursOverview() {
 
@@ -80,7 +80,7 @@ public class ControllerImp implements Controller {
     //--------------------------
     // Follow tour mode
     //--------------------------
-    
+
     @Override
     public Status followTour(String id) {
         // todo
