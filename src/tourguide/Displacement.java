@@ -3,19 +3,28 @@ package tourguide;
 import java.util.logging.Logger;
 
 /**
- *
+ * A Displacement object is used to represent the offset
+ * in both the North and East direction.
+ * <p>
+ * Useful utilities
+ * are also provided to retrieve useful information about
+ * the displacement.
  */
 public class Displacement {
     private static Logger logger = Logger.getLogger("tourguide");
 
-    // x-value
+    /**
+     * east is essentially the distance in the x-direction.
+     */
     public double east;
 
-    // y-value
+    /**
+     * north is essentially the distance in the y-direction.
+     */
     public double north;
 
     /**
-     * Class constructor for the displacement.
+     * Class constructor for Displacement.
      *
      * @param e the offset towards the east
      * @param n the offset towards the north
@@ -28,7 +37,7 @@ public class Displacement {
     }
 
     /**
-     * Find the distance of the displacement from the origin.
+     * Finds the distance of the displacement.
      *
      * @return the distance from the origin
      */
@@ -39,9 +48,10 @@ public class Displacement {
     }
 
     /**
-     * Get the bearing of the displacement.
+     * Finds the bearing of the displacement. This bearing will always
+     * be positive.
      *
-     * @return the bearing measured clockwise form the north direction
+     * @return the bearing measured clockwise form the North direction
      */
     public double bearing() {
         logger.finer("Entering");
