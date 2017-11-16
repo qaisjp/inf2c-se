@@ -140,4 +140,13 @@ public class DisplacementTest {
         }
     }
 
+    @Test
+    public void testDiagonalDistances() {
+        for (int length = -100; length < 100; length++) {
+            double actualDistance = new Displacement(length, length).distance();
+            double expectedDistance = Math.sqrt(2 * length * length);
+            assertEquals(expectedDistance, actualDistance, EPS);
+        }
+    }
+
 }
