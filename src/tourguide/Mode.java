@@ -1,5 +1,13 @@
 package tourguide;
 
-public interface Mode {
-    ModeType getType();
+public abstract class Mode {
+    private final ModeType type;
+
+    public Mode(ModeType type) {
+        this.type = type;
+    }
+
+    ModeType getType() {
+        return type;
+    }
 }
