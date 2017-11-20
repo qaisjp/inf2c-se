@@ -57,6 +57,7 @@ public class ControllerImp implements Controller {
     @Override
     public Status addWaypoint(Annotation annotation) {
         //todo
+        logger.fine(startBanner("addWaypoint"));
 
         if (!currentMode.getType().IsCreate()) {
             return new Status.Error("addWaypoint only valid if in create tour mode");
@@ -69,6 +70,7 @@ public class ControllerImp implements Controller {
     @Override
     public Status addLeg(Annotation annotation) {
         // todo
+        logger.fine(startBanner("addLeg"));
 
         if (!currentMode.getType().IsCreate()) {
             return new Status.Error("addLeg only valid if in create tour mode");
@@ -81,6 +83,7 @@ public class ControllerImp implements Controller {
     @Override
     public Status endNewTour() {
         // todo
+        logger.fine(startBanner("endNewTour"));
 
         if (!currentMode.getType().IsCreate()) {
             return new Status.Error("endNewTour only valid if in create tour mode");
