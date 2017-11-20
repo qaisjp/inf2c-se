@@ -1,5 +1,6 @@
 package tourguide;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class BrowseOverviewMode extends Mode {
@@ -9,6 +10,9 @@ public class BrowseOverviewMode extends Mode {
 
     @Override
     List<Chunk> getOutput() {
-        return null;
+        ArrayList<Chunk> output = new ArrayList<>();
+        output.add(new Chunk.BrowseOverview());
+
+        return output;
     }
 }
