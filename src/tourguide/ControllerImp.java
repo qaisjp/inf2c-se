@@ -65,7 +65,6 @@ public class ControllerImp implements Controller {
             return new Status.Error("addWaypoint only valid if in create tour mode");
         }
 
-        logger.fine(startBanner("addWaypoint"));
         return new Status.Error("unimplemented");
     }
 
@@ -79,7 +78,6 @@ public class ControllerImp implements Controller {
             return new Status.Error("addLeg only valid if in create tour mode");
         }
 
-        logger.fine(startBanner("addLeg"));
         return new Status.Error("unimplemented");
     }
 
@@ -93,7 +91,6 @@ public class ControllerImp implements Controller {
             return new Status.Error("endNewTour only valid if in create tour mode");
         }
 
-        logger.fine(startBanner("endNewTour"));
         return new Status.Error("unimplemented");
     }
 
