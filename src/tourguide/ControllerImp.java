@@ -43,6 +43,14 @@ public class ControllerImp implements Controller {
     public Status startNewTour(String id, String title, Annotation annotation) {
         // todo
         logger.fine(startBanner("startNewTour"));
+
+        if (!currentMode.getType().IsBrowse()) {
+            return new Status.Error("startNewTour only valid if in browse tour mode");
+        }
+
+        currentMode = new CreateMode();
+
+//        return Status.OK;
         return new Status.Error("unimplemented");
     }
 
