@@ -45,6 +45,7 @@ public class ControllerImp implements Controller {
         logger.fine(startBanner("startNewTour"));
 
         if (!currentMode.getType().IsBrowse()) {
+            logger.finer("Not in browse mode");
             return new Status.Error("startNewTour only valid if in browse tour mode");
         }
 
@@ -60,6 +61,7 @@ public class ControllerImp implements Controller {
         logger.fine(startBanner("addWaypoint"));
 
         if (!currentMode.getType().IsCreate()) {
+            logger.finer("Not in create mode");
             return new Status.Error("addWaypoint only valid if in create tour mode");
         }
 
@@ -73,6 +75,7 @@ public class ControllerImp implements Controller {
         logger.fine(startBanner("addLeg"));
 
         if (!currentMode.getType().IsCreate()) {
+            logger.finer("Not in create mode");
             return new Status.Error("addLeg only valid if in create tour mode");
         }
 
@@ -86,6 +89,7 @@ public class ControllerImp implements Controller {
         logger.fine(startBanner("endNewTour"));
 
         if (!currentMode.getType().IsCreate()) {
+            logger.finer("Not in create mode");
             return new Status.Error("endNewTour only valid if in create tour mode");
         }
 
