@@ -4,7 +4,9 @@
 package tourguide;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 import java.util.logging.Logger;
 
 /**
@@ -17,6 +19,7 @@ public class ControllerImp implements Controller {
     private final double waypointRadius, waypointSeparation;
 
     private Mode currentMode;
+    private Set<Tour> tours;
 
     private String startBanner(String messageName) {
         return LS
@@ -30,6 +33,7 @@ public class ControllerImp implements Controller {
         this.waypointSeparation = waypointSeparation;
 
         currentMode = new BrowseOverviewMode();
+        tours = new HashSet<>();
     }
 
     //--------------------------
@@ -49,10 +53,9 @@ public class ControllerImp implements Controller {
             return new Status.Error("startNewTour only valid if in browse tour mode");
         }
 
-        currentMode = new CreateMode();
+        currentMode = new CreateMode(new Tour(id, title, annotation));
 
-//        return Status.OK;
-        return new Status.Error("unimplemented");
+        return Status.OK;
     }
 
     @Override
@@ -64,6 +67,9 @@ public class ControllerImp implements Controller {
             logger.finer("Not in create mode");
             return new Status.Error("addWaypoint only valid if in create tour mode");
         }
+
+        CreateMode mode = (CreateMode) currentMode;
+//        mode.addWaypoint(annotation);
 
         return new Status.Error("unimplemented");
     }
@@ -90,6 +96,11 @@ public class ControllerImp implements Controller {
             logger.finer("Not in create mode");
             return new Status.Error("endNewTour only valid if in create tour mode");
         }
+
+        CreateMode mode = (CreateMode) currentMode;
+        tours.add(mode.getTour());
+
+        currentMode = new BrowseOverviewMode(tours);
 
         return new Status.Error("unimplemented");
     }
