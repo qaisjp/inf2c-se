@@ -16,6 +16,8 @@ public class ControllerImp implements Controller {
 
     private final double waypointRadius, waypointSeparation;
 
+    private Mode currentMode;
+
     private String startBanner(String messageName) {
         return LS
                 + "-------------------------------------------------------------" + LS
@@ -24,9 +26,10 @@ public class ControllerImp implements Controller {
     }
 
     public ControllerImp(double waypointRadius, double waypointSeparation) {
-        // TODO
         this.waypointRadius = waypointRadius;
         this.waypointSeparation = waypointSeparation;
+
+        currentMode = new BrowseOverviewMode();
     }
 
     //--------------------------
@@ -109,9 +112,7 @@ public class ControllerImp implements Controller {
     @Override
     public List<Chunk> getOutput() {
         //todo
-
-
-        return new ArrayList<Chunk>();
+        return currentMode.getOutput();
     }
 
 
