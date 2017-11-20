@@ -229,7 +229,40 @@ public class ControllerTest {
         overview.addIdAndTitle("T1", "Informatics at UoE");
         overview.addIdAndTitle("T2", "Old Town");
         checkOutput(1, 0, overview);
+    }
 
+    @Test
+    public void testCreateWhilstCreating() {
+        logger.info(makeBanner("testCreateWhilstCreating"));
+
+        checkStatus(
+                controller.startNewTour("T2", "Old Town", ann("From Edinburgh Castle to Holyrood\n"))
+        );
+
+        checkStatusNotOK(
+                controller.startNewTour("T1", "Older Town", ann("From Castle to Home\n"))
+        );
+    }
+
+    @Test
+    public void testCreateWhilstBrowseOverview() {
+        logger.info(makeBanner("testCreateWhilstBrowseOverview"));
+
+        checkStatus(
+                controller.startNewTour("T1", "Older Town", ann("From Castle to Home\n"))
+        );
+    }
+
+    @Test
+    public void testCreateWhilstBrowseDetails() {
+        logger.info(makeBanner("testCreateWhilstBrowseDetails"));
+
+        addOnePointTour();
+        controller.showTourDetails("T1");
+
+        checkStatus(
+                controller.startNewTour("T2", "Older Town", ann("From Castle to Home\n"))
+        );
     }
 
 }
