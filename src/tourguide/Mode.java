@@ -1,5 +1,7 @@
 package tourguide;
 
+import java.util.List;
+
 public abstract class Mode {
     private final ModeType type;
 
@@ -10,4 +12,6 @@ public abstract class Mode {
     ModeType getType() {
         return type;
     }
+
+    abstract List<Chunk> getOutput();
 }
