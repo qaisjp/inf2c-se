@@ -373,4 +373,29 @@ public class ControllerTest {
 
     }
 
+    @Test
+    public void testCreateRadius() {
+        logger.info(makeBanner("testCreateRadius"));
+
+        checkStatus(controller.startNewTour(
+                "T1-radius",
+                "Informatics at UoE",
+                ann("The Informatics Forum and Appleton Tower\n"))
+        );
+
+        checkStatusNotOK(controller.endNewTour());
+
+        controller.setLocation(300, -500);
+        checkStatus(controller.addLeg(ann("Start at NE corner of George Square\n")));
+
+        checkStatus(controller.addWaypoint(ann("Informatics Forum")));
+
+        checkOutput(1, 0, new Chunk.CreateHeader("Informatics at UoE", 1, 1));
+
+        checkStatusNotOK(controller.addWaypoint(ann("Informatics Forum 2")));
+
+        checkStatus(controller.endNewTour());
+
+    }
+
 }
