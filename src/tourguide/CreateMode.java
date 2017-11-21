@@ -2,8 +2,11 @@ package tourguide;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Logger;
 
 public class CreateMode extends Mode {
+    private static Logger logger = Logger.getLogger("tourguide");
+
     String id;
     String title;
     Annotation annotation;
@@ -43,6 +46,8 @@ public class CreateMode extends Mode {
     }
 
     public Status addWaypoint(Annotation annotation) {
+        logger.finest("Adding waypoint: " + annotation);
+
         if (currentStage().isFinal()) {
             return new Status.Error("attempted to add waypoint to finished tour");
         }
@@ -61,6 +66,8 @@ public class CreateMode extends Mode {
     }
 
     public Status addLeg(Annotation annotation) {
+        logger.finest("Adding leg: " + annotation);
+
         if (stages.size() == 0) {
             Stage firstStage = new Stage(Stage.StageType.FIRST);
             if (!firstStage.setLeg(new Leg(annotation))) {
@@ -68,8 +75,6 @@ public class CreateMode extends Mode {
             }
 
             stages.add(firstStage);
-
-            stages.add(new Stage(Stage.StageType.INTERMEDIATE));
             return Status.OK;
         }
 
@@ -79,15 +84,16 @@ public class CreateMode extends Mode {
 
         currentStage().setLeg(new Leg(annotation));
 
-        stages.add(new Stage(Stage.StageType.INTERMEDIATE));
         return Status.OK;
     }
 
     public Tour finishTour() {
+        logger.finest("Entering");
         if (!currentStage().setFinal()) {
             return null;
         }
 
+        logger.finest("Success");
         return new Tour(id, title, annotation, stages);
     }
 }

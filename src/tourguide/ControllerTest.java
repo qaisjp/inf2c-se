@@ -192,10 +192,12 @@ public class ControllerTest {
 
     @Test
     public void followOldTownTour() {
-        logger.info(makeBanner("followOldTownTour"));
+        logger.info(makeBanner("followOldTownTour (setup)"));
 
         addOnePointTour();
         addTwoPointTour();
+
+        logger.info(makeBanner("followOldTownTour (primary)"));
 
         checkStatus(controller.followTour("T2"));
 

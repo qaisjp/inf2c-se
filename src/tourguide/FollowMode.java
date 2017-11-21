@@ -24,17 +24,17 @@ public class FollowMode extends Mode {
      * sets the location the user is currently at, and returns
      * whether the tour has been completed.
      *
-     * @param location the user is currently at
+     * @param loc the user is currently at
      * @return completion state
      */
     public boolean setLocation(Displacement loc) {
         logger.finer("Entering with location(e: " + loc.east + ", n: " + loc.north + ")");
         this.location = loc;
 
-        Displacement d = displacementToNext();
+        Displacement d = displacementTo(nextStage());
         if (d != null && d.distance() <= waypointRadius) {
             stage += 1;
-            logger.fine("stage advanced with displacement(e: " + d.east + ", n: " + d.north + ")");
+            logger.fine("stage advanced to " + stage + " with displacement(e: " + d.east + ", n: " + d.north + ")");
         }
 
         logger.finest("is current stage final: " + String.valueOf(currentStage().isFinal()));
@@ -45,8 +45,11 @@ public class FollowMode extends Mode {
         return tour.getStages().get(stage);
     }
 
-    private Displacement displacementToNext() {
-        Stage nextStage = tour.getStages().get(stage + 1);
+    private Stage nextStage() {
+        return tour.getStages().get(stage + 1);
+    }
+
+    private Displacement displacementTo(Stage nextStage) {
         if (nextStage == null || nextStage.waypoint == null) {
             logger.finer((nextStage == null) ? "nextStage null" : "nextStage.waypoint null");
 
@@ -75,7 +78,8 @@ public class FollowMode extends Mode {
         ));
 
         Waypoint waypoint = currentStage().waypoint;
-        if (waypoint != null) {
+        Displacement currentD = displacementTo(currentStage());
+        if (waypoint != null && currentD != null && currentD.distance() <= waypointRadius) {
             logger.finest("Adding Chunk.FollowWaypoint: " + waypoint.getAnnotation());
             chunks.add(new Chunk.FollowWaypoint(
                     waypoint.getAnnotation()
@@ -90,13 +94,14 @@ public class FollowMode extends Mode {
             ));
         }
 
-        // What happens if we do this when we have finished?
-        Displacement d = displacementToNext();
-        if (d != null) {
-            logger.finest("Adding Chunk.FollowBearing: bearing(" + d.bearing()+ "), distance(" + d.distance() + ")");
-            chunks.add(new Chunk.FollowBearing(
-                    d.bearing(), d.distance()
-            ));
+        if (!currentStage().isFinal()) {
+            Displacement d = displacementTo(nextStage());
+            if (d != null) {
+                logger.finest("Adding Chunk.FollowBearing: bearing(" + d.bearing() + "), distance(" + d.distance() + ")");
+                chunks.add(new Chunk.FollowBearing(
+                        d.bearing(), d.distance()
+                ));
+            }
         }
 
         return chunks;
