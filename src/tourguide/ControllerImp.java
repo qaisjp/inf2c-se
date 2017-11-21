@@ -58,7 +58,6 @@ public class ControllerImp implements Controller {
 
     @Override
     public Status startNewTour(String id, String title, Annotation annotation) {
-        // todo
         logger.fine(startBanner("startNewTour"));
 
         if (!currentMode.getType().IsBrowse()) {
@@ -73,7 +72,6 @@ public class ControllerImp implements Controller {
 
     @Override
     public Status addWaypoint(Annotation annotation) {
-        //todo
         logger.fine(startBanner("addWaypoint"));
 
         if (!currentMode.getType().IsCreate()) {
@@ -88,7 +86,6 @@ public class ControllerImp implements Controller {
 
     @Override
     public Status addLeg(Annotation annotation) {
-        // todo
         logger.fine(startBanner("addLeg"));
 
         if (!currentMode.getType().IsCreate()) {
@@ -103,7 +100,6 @@ public class ControllerImp implements Controller {
 
     @Override
     public Status endNewTour() {
-        // todo
         logger.fine(startBanner("endNewTour"));
 
         if (!currentMode.getType().IsCreate()) {
