@@ -9,10 +9,13 @@ import static tourguide.Stage.StageType.*;
 
 public class Stage {
 
-    StageType type;
+    private StageType type;
+    public Waypoint waypoint;
+    public Leg leg;
 
-    Waypoint waypoint;
-    Leg leg;
+    public StageType getType() {
+        return type;
+    }
 
     public enum StageType {
         FIRST, INTERMEDIATE, FINAL;
@@ -82,7 +85,7 @@ public class Stage {
         return type == FINAL;
     }
 
-    List<Node> getNodes() {
+    public List<Node> getNodes() {
         if (type == FIRST) {
             return Arrays.asList(leg);
         } else if (type == FINAL) {

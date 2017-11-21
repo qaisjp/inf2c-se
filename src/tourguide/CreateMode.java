@@ -53,7 +53,7 @@ public class CreateMode extends Mode {
             return new Status.Error("attempted to add waypoint to finished tour");
         }
 
-        if (currentStage().type != Stage.StageType.FIRST) {
+        if (currentStage().getType() != Stage.StageType.FIRST) {
             Displacement from = currentStage().waypoint.position;
             Displacement to = location;
 
