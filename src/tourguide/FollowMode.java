@@ -24,6 +24,18 @@ public class FollowMode extends Mode {
         return tour.getStages().get(stage);
     }
 
+    private Displacement displacementToNext() {
+        Stage nextStage = tour.getStages().get(stage + 1);
+        if (nextStage == null || nextStage.waypoint == null) {
+            return null;
+        }
+
+        Displacement target = nextStage.waypoint.position;
+        Displacement d = new Displacement(target.east - location.east, target.north - location.north);
+
+        return d;
+    }
+
     @Override
     List<Chunk> getOutput() {
         ArrayList<Chunk> chunks = new ArrayList<>();
@@ -48,11 +60,8 @@ public class FollowMode extends Mode {
         }
 
         // What happens if we do this when we have finished?
-        Stage nextStage = tour.getStages().get(stage + 1);
-        if (nextStage != null && nextStage.waypoint != null) {
-            Displacement target = nextStage.waypoint.position;
-            Displacement d = new Displacement(target.east - location.east, target.north - location.north);
-
+        Displacement d = displacementToNext();
+        if (d != null) {
             chunks.add(new Chunk.FollowBearing(
                     d.bearing(), d.distance()
             ));
