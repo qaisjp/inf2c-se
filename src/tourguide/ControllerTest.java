@@ -344,6 +344,7 @@ public class ControllerTest {
         checkStatus(controller.endNewTour());
 
         checkStatusNotOK(controller.addLeg(ann("Royal Mile\n")));
+        checkStatusNotOK(controller.addWaypoint(ann("Informatics Forum")));
 
     }
 
