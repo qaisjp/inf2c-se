@@ -63,11 +63,18 @@ public class CreateMode extends Mode {
     public Status addLeg(Annotation annotation) {
         if (stages.size() == 0) {
             Stage firstStage = new Stage(Stage.StageType.FIRST);
-            firstStage.setLeg(new Leg(annotation));
+            if (!firstStage.setLeg(new Leg(annotation))) {
+                return new Status.Error("leg already set for 0th stage");
+            }
+
             stages.add(firstStage);
 
             stages.add(new Stage(Stage.StageType.INTERMEDIATE));
             return Status.OK;
+        }
+
+        if (currentStage().isFinal()) {
+            return new Status.Error("cannot set leg of final stage");
         }
 
         currentStage().setLeg(new Leg(annotation));
