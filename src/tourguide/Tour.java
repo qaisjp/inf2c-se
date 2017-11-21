@@ -9,8 +9,9 @@ public class Tour {
 
     private ArrayList<Annotation> waypoints;
     private ArrayList<Annotation> legs;
+    private ArrayList<Stage> stages;
 
-    public Tour(String id, String title, Annotation annotation) {
+    public Tour(String id, String title, Annotation annotation, ArrayList<Stage> stages) {
         this.id = id;
         this.title = title;
         this.annotation = annotation;

@@ -118,15 +118,30 @@ public class ControllerImp implements Controller {
 
     @Override
     public Status showTourDetails(String tourID) {
-        //todo
-        return new Status.Error("unimplemented");
+        Tour tour = null;
+
+        for (Tour t : tours) {
+            if (t.getID() == tourID) {
+                tour = t;
+                break;
+            }
+        }
+
+        if (tour == null) {
+            return new Status.Error("tour does not exist");
+        }
+
+
+        currentMode = new BrowseDetailsMode(tour);
+
+        return Status.OK;
     }
 
     @Override
     public Status showToursOverview() {
+        currentMode = new BrowseOverviewMode(tours);
 
-        //todo
-        return new Status.Error("unimplemented");
+        return Status.OK;
     }
 
     //--------------------------
@@ -160,7 +175,6 @@ public class ControllerImp implements Controller {
 
     @Override
     public List<Chunk> getOutput() {
-        //todo
         return currentMode.getOutput();
     }
 

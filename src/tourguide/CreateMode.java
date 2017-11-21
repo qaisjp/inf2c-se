@@ -81,7 +81,6 @@ public class CreateMode extends Mode {
             return null;
         }
 
-        // todo null
-        return new Tour(id, title, annotation);
+        return new Tour(id, title, annotation, stages);
     }
 }
