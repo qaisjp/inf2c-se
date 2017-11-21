@@ -46,6 +46,17 @@ public class FollowMode extends Mode {
             ));
         }
 
+        // What happens if we do this when we have finished?
+        Stage nextStage = tour.getStages().get(stage + 1);
+        if (nextStage != null && nextStage.waypoint != null) {
+            Displacement target = nextStage.waypoint.position;
+            Displacement d = new Displacement(target.east - location.east, target.north - location.north);
+
+            chunks.add(new Chunk.FollowBearing(
+                    d.bearing(), d.distance()
+            ));
+        }
+
         return chunks;
     }
 }

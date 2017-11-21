@@ -11,8 +11,8 @@ public class Stage {
 
     StageType type;
 
-    protected Waypoint waypoint;
-    protected Leg leg;
+    Waypoint waypoint;
+    Leg leg;
 
     public enum StageType {
         FIRST, INTERMEDIATE, FINAL;
