@@ -74,7 +74,7 @@ public class FollowMode extends Mode {
         chunks.add(new Chunk.FollowHeader(
             tour.getTitle(),
             stage,
-            tour.getWaypoints()
+            tour.countWaypoints()
         ));
 
         Waypoint waypoint = currentStage().waypoint;
