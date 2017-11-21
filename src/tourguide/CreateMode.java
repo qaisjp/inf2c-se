@@ -25,7 +25,13 @@ public class CreateMode extends Mode {
         return chunks;
     }
 
-    public Tour getTour() {
+    public void addWaypoint(Annotation annotation) {
+    }
+
+    public void addLeg(Annotation annotation) {
+    }
+
+    public Tour finishTour() {
         return tour;
     }
 }

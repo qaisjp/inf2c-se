@@ -69,7 +69,7 @@ public class ControllerImp implements Controller {
         }
 
         CreateMode mode = (CreateMode) currentMode;
-//        mode.addWaypoint(annotation);
+        mode.addWaypoint(annotation);
 
         return new Status.Error("unimplemented");
     }
@@ -83,6 +83,9 @@ public class ControllerImp implements Controller {
             logger.finer("Not in create mode");
             return new Status.Error("addLeg only valid if in create tour mode");
         }
+
+        CreateMode mode = (CreateMode) currentMode;
+        mode.addLeg(annotation);
 
         return new Status.Error("unimplemented");
     }
@@ -98,7 +101,13 @@ public class ControllerImp implements Controller {
         }
 
         CreateMode mode = (CreateMode) currentMode;
-        tours.add(mode.getTour());
+
+        Tour tour = mode.finishTour();
+        if (tour == null) {
+            return new Status.Error("could not finish tour in current state");
+        }
+
+        tours.add(tour);
 
         currentMode = new BrowseOverviewMode(tours);
 
