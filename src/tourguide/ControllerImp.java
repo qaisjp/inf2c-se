@@ -191,7 +191,8 @@ public class ControllerImp implements Controller {
             FollowMode mode = (FollowMode) currentMode;
             boolean finished = mode.setLocation(new Displacement(easting, northing));
             if (finished) {
-                endSelectedTour();
+                logger.info("reached end of tour");
+//                endSelectedTour();
             }
             return;
         }
