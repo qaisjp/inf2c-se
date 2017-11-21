@@ -16,8 +16,23 @@ public class FollowMode extends Mode {
         this.waypointRadius = waypointRadius;
     }
 
-    public void setLocation(Displacement location) {
+    /**
+     * sets the location the user is currently at, and returns
+     * whether the tour has been completed.
+     *
+     * @param location the user is currently at
+     * @return completion state
+     */
+    public boolean setLocation(Displacement location) {
         this.location = location;
+
+        Displacement d = displacementToNext();
+        if (d != null && d.distance() <= waypointRadius) {
+            stage += 1;
+
+        }
+
+        return currentStage().isFinal();
     }
 
     private Stage currentStage() {
