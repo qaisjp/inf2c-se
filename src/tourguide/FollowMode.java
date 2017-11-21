@@ -31,7 +31,7 @@ public class FollowMode extends Mode {
         logger.finer("Entering with location(e: " + loc.east + ", n: " + loc.north + ")");
         this.location = loc;
 
-        Displacement d = displacementTo(nextStage());
+        Displacement d = getDisplacementToStage(nextStage());
         if (d != null && d.distance() <= waypointRadius) {
             stage += 1;
             logger.fine("stage advanced to " + stage + " with displacement(e: " + d.east + ", n: " + d.north + ")");
@@ -49,7 +49,7 @@ public class FollowMode extends Mode {
         return tour.getStages().get(stage + 1);
     }
 
-    private Displacement displacementTo(Stage nextStage) {
+    private Displacement getDisplacementToStage(Stage nextStage) {
         if (nextStage == null || nextStage.waypoint == null) {
             logger.finer((nextStage == null) ? "nextStage null" : "nextStage.waypoint null");
 
@@ -78,7 +78,7 @@ public class FollowMode extends Mode {
         ));
 
         Waypoint waypoint = currentStage().waypoint;
-        Displacement currentD = displacementTo(currentStage());
+        Displacement currentD = getDisplacementToStage(currentStage());
         if (waypoint != null && currentD != null && currentD.distance() <= waypointRadius) {
             logger.finest("Adding Chunk.FollowWaypoint: " + waypoint.getAnnotation());
             chunks.add(new Chunk.FollowWaypoint(
@@ -95,7 +95,7 @@ public class FollowMode extends Mode {
         }
 
         if (!currentStage().isFinal()) {
-            Displacement d = displacementTo(nextStage());
+            Displacement d = getDisplacementToStage(nextStage());
             if (d != null) {
                 logger.finest("Adding Chunk.FollowBearing: bearing(" + d.bearing() + "), distance(" + d.distance() + ")");
                 chunks.add(new Chunk.FollowBearing(
