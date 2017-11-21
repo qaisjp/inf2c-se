@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FollowMode extends Mode {
-    Tour tour;
-    int stage;
-    Displacement location;
+    private Tour tour;
+    private int stage;
+    private Displacement location;
     private double waypointRadius;
 
     public FollowMode(Tour tour, double waypointRadius) {
