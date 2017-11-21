@@ -26,11 +26,25 @@ public class FollowMode extends Mode {
     @Override
     List<Chunk> getOutput() {
         ArrayList<Chunk> chunks = new ArrayList<>();
-        chunks.add( new Chunk.FollowHeader(
+        chunks.add(new Chunk.FollowHeader(
             tour.getTitle(),
             stage,
             tour.getWaypoints()
         ));
+
+        Waypoint waypoint = currentStage().waypoint;
+        if (waypoint != null) {
+            chunks.add(new Chunk.FollowWaypoint(
+                    waypoint.getAnnotation()
+            ));
+        }
+
+        Leg leg = currentStage().leg;
+        if (leg != null) {
+            chunks.add(new Chunk.FollowLeg(
+                    leg.getAnnotation()
+            ));
+        }
 
         return chunks;
     }
