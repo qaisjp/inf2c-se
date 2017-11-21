@@ -4,7 +4,7 @@ import java.util.List;
 
 public abstract class Mode {
 
-    private enum ModeType {
+    public enum ModeType {
         CREATE,
         BROWSE_OVERVIEW,
         BROWSE_DETAILS,
