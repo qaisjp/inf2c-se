@@ -166,7 +166,7 @@ public class ControllerImp implements Controller {
             return new Status.Error("tour does not exist");
         }
 
-        currentMode = new FollowMode(tour);
+        currentMode = new FollowMode(tour, waypointRadius);
 
         return Status.OK;
     }

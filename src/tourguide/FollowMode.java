@@ -7,12 +7,13 @@ public class FollowMode extends Mode {
     Tour tour;
     int stage;
     Displacement location;
+    private double waypointRadius;
 
-
-    public FollowMode(Tour tour) {
+    public FollowMode(Tour tour, double waypointRadius) {
         super(ModeType.FOLLOW);
 
         this.tour = tour;
+        this.waypointRadius = waypointRadius;
     }
 
     public void setLocation(Displacement location) {
