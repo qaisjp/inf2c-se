@@ -234,6 +234,38 @@ public class ControllerTest {
     }
 
     @Test
+    public void testFollowEndPremature() {
+        logger.info(makeBanner("testFollowEndPremature (setup)"));
+
+        addOnePointTour();
+        addTwoPointTour();
+
+        logger.info(makeBanner("testFollowEndPremature (primary)"));
+
+        checkStatus(controller.followTour("T2"));
+
+        controller.setLocation(0.0, 0.0);
+
+        checkOutput(3, 0, new Chunk.FollowHeader("Old Town", 0, 2));
+        checkOutput(3, 1, new Chunk.FollowLeg(Annotation.DEFAULT));
+        checkOutput(3, 2, new Chunk.FollowBearing(270.0, 500.0));
+
+        controller.setLocation(-490.0, 0.0);
+
+        checkOutput(4, 0, new Chunk.FollowHeader("Old Town", 1, 2));
+        checkOutput(4, 1, new Chunk.FollowWaypoint(ann("Edinburgh Castle\n")));
+        checkOutput(4, 2, new Chunk.FollowLeg(ann("Royal Mile\n")));
+        checkOutput(4, 3, new Chunk.FollowBearing(79.0, 1520.0));
+
+        controller.endSelectedTour();
+
+        Chunk.BrowseOverview overview = new Chunk.BrowseOverview();
+        overview.addIdAndTitle("T1", "Informatics at UoE");
+        overview.addIdAndTitle("T2", "Old Town");
+        checkOutput(1, 0, overview);
+    }
+
+    @Test
     public void testCreateWhilstCreating() {
         logger.info(makeBanner("testCreateWhilstCreating"));
 
