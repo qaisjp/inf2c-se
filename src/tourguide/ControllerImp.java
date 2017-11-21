@@ -36,6 +36,19 @@ public class ControllerImp implements Controller {
         tours = new HashSet<>();
     }
 
+    public Tour getTourByID(String id) {
+        Tour tour = null;
+
+        for (Tour t : tours) {
+            if (t.getID() == id) {
+                tour = t;
+                break;
+            }
+        }
+
+        return tour;
+    }
+
     //--------------------------
     // Create tour mode
     //--------------------------
@@ -118,19 +131,11 @@ public class ControllerImp implements Controller {
 
     @Override
     public Status showTourDetails(String tourID) {
-        Tour tour = null;
-
-        for (Tour t : tours) {
-            if (t.getID() == tourID) {
-                tour = t;
-                break;
-            }
-        }
+        Tour tour = getTourByID(tourID);
 
         if (tour == null) {
             return new Status.Error("tour does not exist");
         }
-
 
         currentMode = new BrowseDetailsMode(tour);
 
