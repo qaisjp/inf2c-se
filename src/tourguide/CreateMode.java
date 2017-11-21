@@ -11,10 +11,11 @@ public class CreateMode extends Mode {
     String title;
     Annotation annotation;
     Displacement location;
+    private double separation;
 
     ArrayList<Stage> stages = new ArrayList<>();
 
-    public CreateMode(String id, String title, Annotation annotation) {
+    public CreateMode(String id, String title, Annotation annotation, double separation) {
         super(ModeType.CREATE);
 
         this.id = id;
@@ -50,6 +51,17 @@ public class CreateMode extends Mode {
 
         if (currentStage().isFinal()) {
             return new Status.Error("attempted to add waypoint to finished tour");
+        }
+
+        if (currentStage().type != Stage.StageType.FIRST) {
+            Displacement from = currentStage().waypoint.position;
+            Displacement to = location;
+
+            Displacement d = new Displacement(to.east - from.east, to.north - from.north);
+            if (d.distance() <= separation) {
+                logger.finest("Too close to previous waypoint: " + annotation);
+                return new Status.Error("too close to previous waypoint");
+            }
         }
 
         if (currentStage().leg == null) {

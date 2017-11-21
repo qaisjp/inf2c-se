@@ -66,7 +66,7 @@ public class ControllerImp implements Controller {
             return new Status.Error("startNewTour only valid if in browse tour mode");
         }
 
-        currentMode = new CreateMode(id, title, annotation);
+        currentMode = new CreateMode(id, title, annotation, waypointSeparation);
 
         return Status.OK;
     }
