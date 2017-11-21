@@ -299,4 +299,24 @@ public class ControllerTest {
         );
     }
 
+    @Test
+    public void testCreateEndPremature() {
+        logger.info(makeBanner("testCreateEndPremature"));
+
+        checkStatus(controller.startNewTour(
+                "T1-premature",
+                "Informatics at UoE",
+                ann("The Informatics Forum and Appleton Tower\n"))
+        );
+
+        checkOutput(1, 0, new Chunk.CreateHeader("Informatics at UoE", 0, 0));
+
+        controller.setLocation(300, -500);
+
+        checkStatus(controller.addLeg(ann("Start at NE corner of George Square\n")));
+
+        checkStatusNotOK(controller.endNewTour());
+
+    }
+
 }
