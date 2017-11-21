@@ -189,7 +189,10 @@ public class ControllerImp implements Controller {
 
         if (currentMode.getType().IsFollow()) {
             FollowMode mode = (FollowMode) currentMode;
-            mode.setLocation(new Displacement(easting, northing));
+            boolean finished = mode.setLocation(new Displacement(easting, northing));
+            if (finished) {
+                endSelectedTour();
+            }
             return;
         }
     }
