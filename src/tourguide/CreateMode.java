@@ -7,13 +7,13 @@ import java.util.logging.Logger;
 public class CreateMode extends Mode {
     private static Logger logger = Logger.getLogger("tourguide");
 
-    String id;
-    String title;
-    Annotation annotation;
-    Displacement location;
+    private String id;
+    private String title;
+    private Annotation annotation;
+    private Displacement location;
     private double separation;
 
-    ArrayList<Stage> stages = new ArrayList<>();
+    private ArrayList<Stage> stages = new ArrayList<>();
 
     public CreateMode(String id, String title, Annotation annotation, double separation) {
         super(ModeType.CREATE);
