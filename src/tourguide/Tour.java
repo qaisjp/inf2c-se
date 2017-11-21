@@ -7,14 +7,13 @@ public class Tour {
     private String title;
     private Annotation annotation;
 
-    private ArrayList<Annotation> waypoints;
-    private ArrayList<Annotation> legs;
     private ArrayList<Stage> stages;
 
     public Tour(String id, String title, Annotation annotation, ArrayList<Stage> stages) {
         this.id = id;
         this.title = title;
         this.annotation = annotation;
+        this.stages = stages;
     }
 
     public Annotation getAnnotation() {
@@ -31,14 +30,18 @@ public class Tour {
     }
 
     public int getLegs() {
-        return legs.size();
+        return Stage.countLegs(stages);
     }
 
     public int getWaypoints() {
-        return waypoints.size();
+        return Stage.countWaypoints(stages);
     }
 
     public String getID() {
         return id;
+    }
+
+    public ArrayList<Stage> getStages() {
+        return stages;
     }
 }
