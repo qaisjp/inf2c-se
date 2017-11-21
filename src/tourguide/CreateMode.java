@@ -21,6 +21,7 @@ public class CreateMode extends Mode {
         this.id = id;
         this.title = title;
         this.annotation = annotation;
+        this.separation = separation;
 
         stages.add(new Stage(Stage.StageType.FIRST));
     }
@@ -58,6 +59,8 @@ public class CreateMode extends Mode {
             Displacement to = location;
 
             Displacement d = new Displacement(to.east - from.east, to.north - from.north);
+
+            logger.finest("checking displacement, this: " + d.distance());
             if (d.distance() <= separation) {
                 logger.finest("Too close to previous waypoint: " + annotation);
                 return new Status.Error("too close to previous waypoint");
@@ -74,6 +77,7 @@ public class CreateMode extends Mode {
             return new Status.Error("Could not set waypoint");
         }
 
+        logger.finest("Waypoint added to stage" + (stages.size() - 1));
         return Status.OK;
     }
 
