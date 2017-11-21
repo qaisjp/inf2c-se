@@ -53,7 +53,7 @@ public class ControllerImp implements Controller {
             return new Status.Error("startNewTour only valid if in browse tour mode");
         }
 
-        currentMode = new CreateMode(new Tour(id, title, annotation));
+        currentMode = new CreateMode(id, title, annotation);
 
         return Status.OK;
     }
@@ -69,9 +69,8 @@ public class ControllerImp implements Controller {
         }
 
         CreateMode mode = (CreateMode) currentMode;
-        mode.addWaypoint(annotation);
 
-        return new Status.Error("unimplemented");
+        return mode.addWaypoint(annotation);
     }
 
     @Override
@@ -85,9 +84,8 @@ public class ControllerImp implements Controller {
         }
 
         CreateMode mode = (CreateMode) currentMode;
-        mode.addLeg(annotation);
 
-        return new Status.Error("unimplemented");
+        return mode.addLeg(annotation);
     }
 
     @Override
@@ -111,7 +109,7 @@ public class ControllerImp implements Controller {
 
         currentMode = new BrowseOverviewMode(tours);
 
-        return new Status.Error("unimplemented");
+        return Status.OK;
     }
 
     //--------------------------
@@ -154,6 +152,10 @@ public class ControllerImp implements Controller {
     @Override
     public void setLocation(double easting, double northing) {
         // todo
+        if (currentMode.getType().IsCreate()) {
+            CreateMode mode = (CreateMode) currentMode;
+            mode.setLocation(new Displacement(easting, northing));
+        }
     }
 
     @Override
