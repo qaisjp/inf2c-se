@@ -155,15 +155,25 @@ public class ControllerImp implements Controller {
 
     @Override
     public Status followTour(String id) {
-        // todo
-        return new Status.Error("unimplemented");
+        if (!currentMode.getType().IsBrowse()) {
+            logger.finer("Not in browse mode");
+            return new Status.Error("only valid if in browse mode");
+        }
+
+        Tour tour = getTourByID(id);
+
+        if (tour == null) {
+            return new Status.Error("tour does not exist");
+        }
+
+        currentMode = new FollowMode(tour);
+
+        return Status.OK;
     }
 
     @Override
     public Status endSelectedTour() {
-
-        //todo
-        return new Status.Error("unimplemented");
+        return showToursOverview();
     }
 
     //--------------------------
@@ -171,10 +181,16 @@ public class ControllerImp implements Controller {
     //--------------------------
     @Override
     public void setLocation(double easting, double northing) {
-        // todo
         if (currentMode.getType().IsCreate()) {
             CreateMode mode = (CreateMode) currentMode;
             mode.setLocation(new Displacement(easting, northing));
+            return;
+        }
+
+        if (currentMode.getType().IsFollow()) {
+            FollowMode mode = (FollowMode) currentMode;
+            mode.setLocation(new Displacement(easting, northing));
+            return;
         }
     }
 
@@ -182,6 +198,4 @@ public class ControllerImp implements Controller {
     public List<Chunk> getOutput() {
         return currentMode.getOutput();
     }
-
-
 }
