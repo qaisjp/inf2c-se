@@ -8,4 +8,14 @@ public class Waypoint extends Node {
 
         this.position = position;
     }
+
+    @Override
+    public String toString() {
+        return "Waypoint{" +
+                "pos.north=" + position.north +
+                "pos.east=" + position.east +
+                "pos.bearing()=" + position.bearing() +
+                "pos.distance()=" + position.distance() +
+                '}';
+    }
 }

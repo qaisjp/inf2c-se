@@ -112,4 +112,13 @@ public class Stage {
         }
         return count;
     }
+
+    @Override
+    public String toString() {
+        return "Stage{" +
+                "type=" + type +
+                ", waypoint=" + waypoint +
+                ", leg=" + leg +
+                '}';
+    }
 }

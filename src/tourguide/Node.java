@@ -10,4 +10,11 @@ public abstract class Node {
     public Annotation getAnnotation() {
         return annotation;
     }
+
+    @Override
+    public String toString() {
+        return "Node{" +
+                "annotation=" + annotation +
+                '}';
+    }
 }
