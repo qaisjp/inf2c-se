@@ -43,19 +43,19 @@ public class CreateMode extends Mode {
         return chunks;
     }
 
-    private Stage currentStage() {
+    private Stage getCurrentStage() {
         return stages.get(stages.size()-1);
     }
 
     public Status addWaypoint(Annotation annotation) {
         logger.finest("Adding waypoint: " + annotation);
 
-        if (currentStage().isFinal()) {
+        if (getCurrentStage().isFinal()) {
             return new Status.Error("attempted to add waypoint to finished tour");
         }
 
-        if (currentStage().getType() != Stage.StageType.FIRST) {
-            Displacement from = currentStage().waypoint.position;
+        if (getCurrentStage().getType() != Stage.StageType.FIRST) {
+            Displacement from = getCurrentStage().waypoint.position;
             Displacement to = location;
 
             Displacement d = new Displacement(to.east - from.east, to.north - from.north);
@@ -67,13 +67,13 @@ public class CreateMode extends Mode {
             }
         }
 
-        if (currentStage().leg == null) {
-            currentStage().setLeg(new Leg());
+        if (getCurrentStage().leg == null) {
+            getCurrentStage().setLeg(new Leg());
         }
 
         stages.add(new Stage(Stage.StageType.INTERMEDIATE));
 
-        if (!currentStage().setWaypoint(new Waypoint(annotation, location))) {
+        if (!getCurrentStage().setWaypoint(new Waypoint(annotation, location))) {
             return new Status.Error("Could not set waypoint");
         }
 
@@ -94,18 +94,18 @@ public class CreateMode extends Mode {
             return Status.OK;
         }
 
-        if (currentStage().isFinal()) {
+        if (getCurrentStage().isFinal()) {
             return new Status.Error("cannot set leg of final stage");
         }
 
-        currentStage().setLeg(new Leg(annotation));
+        getCurrentStage().setLeg(new Leg(annotation));
 
         return Status.OK;
     }
 
     public Tour finishTour() {
         logger.finest("Entering");
-        if (!currentStage().setFinal()) {
+        if (!getCurrentStage().setFinal()) {
             return null;
         }
 
