@@ -196,6 +196,8 @@ public class ControllerImp implements Controller {
             }
             return;
         }
+
+        logger.info("setLocation called whilst in Mode: " + currentMode.getType().toString());
     }
 
     @Override
