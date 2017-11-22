@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class BrowseDetailsMode extends Mode {
-    Tour tour;
+    private Tour tour;
 
     public BrowseDetailsMode(Tour tour) {
         super(ModeType.BROWSE_DETAILS);

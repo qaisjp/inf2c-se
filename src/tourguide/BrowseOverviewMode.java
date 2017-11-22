@@ -3,7 +3,7 @@ package tourguide;
 import java.util.*;
 
 public class BrowseOverviewMode extends Mode {
-    Set<Tour> tours = new HashSet<>();
+    private Set<Tour> tours = new HashSet<>();
 
     public BrowseOverviewMode() {
         super(ModeType.BROWSE_OVERVIEW);

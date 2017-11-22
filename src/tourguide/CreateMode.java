@@ -7,13 +7,13 @@ import java.util.logging.Logger;
 public class CreateMode extends Mode {
     private static Logger logger = Logger.getLogger("tourguide");
 
-    String id;
-    String title;
-    Annotation annotation;
-    Displacement location;
+    private String id;
+    private String title;
+    private Annotation annotation;
+    private Displacement location;
     private double separation;
 
-    ArrayList<Stage> stages = new ArrayList<>();
+    private ArrayList<Stage> stages = new ArrayList<>();
 
     public CreateMode(String id, String title, Annotation annotation, double separation) {
         super(ModeType.CREATE);
@@ -21,6 +21,7 @@ public class CreateMode extends Mode {
         this.id = id;
         this.title = title;
         this.annotation = annotation;
+        this.separation = separation;
 
         stages.add(new Stage(Stage.StageType.FIRST));
     }
@@ -42,38 +43,41 @@ public class CreateMode extends Mode {
         return chunks;
     }
 
-    private Stage currentStage() {
+    private Stage getCurrentStage() {
         return stages.get(stages.size()-1);
     }
 
     public Status addWaypoint(Annotation annotation) {
         logger.finest("Adding waypoint: " + annotation);
 
-        if (currentStage().isFinal()) {
+        if (getCurrentStage().isFinal()) {
             return new Status.Error("attempted to add waypoint to finished tour");
         }
 
-        if (currentStage().type != Stage.StageType.FIRST) {
-            Displacement from = currentStage().waypoint.position;
+        if (getCurrentStage().getType() != Stage.StageType.FIRST) {
+            Displacement from = getCurrentStage().waypoint.position;
             Displacement to = location;
 
             Displacement d = new Displacement(to.east - from.east, to.north - from.north);
+
+            logger.finest("checking displacement, this: " + d.distance());
             if (d.distance() <= separation) {
                 logger.finest("Too close to previous waypoint: " + annotation);
                 return new Status.Error("too close to previous waypoint");
             }
         }
 
-        if (currentStage().leg == null) {
-            currentStage().setLeg(new Leg());
+        if (getCurrentStage().leg == null) {
+            getCurrentStage().setLeg(new Leg());
         }
 
         stages.add(new Stage(Stage.StageType.INTERMEDIATE));
 
-        if (!currentStage().setWaypoint(new Waypoint(annotation, location))) {
+        if (!getCurrentStage().setWaypoint(new Waypoint(annotation, location))) {
             return new Status.Error("Could not set waypoint");
         }
 
+        logger.finest("Waypoint added to stage" + (stages.size() - 1));
         return Status.OK;
     }
 
@@ -90,18 +94,18 @@ public class CreateMode extends Mode {
             return Status.OK;
         }
 
-        if (currentStage().isFinal()) {
+        if (getCurrentStage().isFinal()) {
             return new Status.Error("cannot set leg of final stage");
         }
 
-        currentStage().setLeg(new Leg(annotation));
+        getCurrentStage().setLeg(new Leg(annotation));
 
         return Status.OK;
     }
 
     public Tour finishTour() {
         logger.finest("Entering");
-        if (!currentStage().setFinal()) {
+        if (!getCurrentStage().setFinal()) {
             return null;
         }
 

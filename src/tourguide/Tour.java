@@ -29,11 +29,7 @@ public class Tour {
         return title;
     }
 
-    public int getLegs() {
-        return Stage.countLegs(stages);
-    }
-
-    public int getWaypoints() {
+    public int countWaypoints() {
         return Stage.countWaypoints(stages);
     }
 
