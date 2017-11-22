@@ -1,1285 +1,1285 @@
-Nov 22, 2017 2:28:36 AM tourguide.ControllerTest testCreateAfterEnded
+Nov 22, 2017 2:38:39 AM tourguide.ControllerTest testCreateAfterEnded
 INFO: 
 #############################################################
 TESTCASE: testCreateAfterEnded
 #############################################################
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp startNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp startNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: startNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 300.0  North: -500.0
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addLeg
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addLeg
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addLeg
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addLeg
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addLeg
 FINEST: Adding leg: Start at NE corner of George Square
 
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addWaypoint
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addWaypoint
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Adding waypoint: Informatics Forum
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Waypoint added to stage1
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp endNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp endNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: endNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Entering
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Success
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addLeg
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addLeg
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addLeg
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addLeg
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addLeg
 FINER: Not in create mode
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addWaypoint
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addWaypoint
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addWaypoint
 FINER: Not in create mode
-Nov 22, 2017 2:28:36 AM tourguide.ControllerTest testCreateWhilstBrowseDetails
+Nov 22, 2017 2:38:39 AM tourguide.ControllerTest testCreateWhilstBrowseDetails
 INFO: 
 #############################################################
 TESTCASE: testCreateWhilstBrowseDetails
 #############################################################
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp startNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp startNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: startNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 300.0  North: -500.0
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addLeg
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addLeg
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addLeg
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addLeg
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addLeg
 FINEST: Adding leg: Start at NE corner of George Square
 
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addWaypoint
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addWaypoint
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Adding waypoint: Informatics Forum
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Waypoint added to stage1
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp endNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp endNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: endNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Entering
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Success
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp startNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp startNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: startNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.ControllerTest testCreateWhilstCreating
+Nov 22, 2017 2:38:39 AM tourguide.ControllerTest testCreateWhilstCreating
 INFO: 
 #############################################################
 TESTCASE: testCreateWhilstCreating
 #############################################################
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp startNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp startNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: startNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp startNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp startNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: startNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp startNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp startNewTour
 FINER: Not in browse mode
-Nov 22, 2017 2:28:36 AM tourguide.ControllerTest testCreateRadius
+Nov 22, 2017 2:38:39 AM tourguide.ControllerTest testCreateRadius
 INFO: 
 #############################################################
 TESTCASE: testCreateRadius
 #############################################################
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp startNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp startNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: startNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp endNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp endNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: endNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 300.0  North: -500.0
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addLeg
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addLeg
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addLeg
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addLeg
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addLeg
 FINEST: Adding leg: Start at NE corner of George Square
 
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addWaypoint
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addWaypoint
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Adding waypoint: Informatics Forum
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Waypoint added to stage1
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addWaypoint
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addWaypoint
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Adding waypoint: Informatics Forum 2
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 0.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: checking displacement, this: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Too close to previous waypoint: Informatics Forum 2
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp endNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp endNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: endNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Entering
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Success
-Nov 22, 2017 2:28:36 AM tourguide.ControllerTest testCreateSameID
+Nov 22, 2017 2:38:39 AM tourguide.ControllerTest testCreateSameID
 INFO: 
 #############################################################
 TESTCASE: testCreateSameID
 #############################################################
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp startNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp startNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: startNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 300.0  North: -500.0
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addLeg
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addLeg
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addLeg
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addLeg
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addLeg
 FINEST: Adding leg: Start at NE corner of George Square
 
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addWaypoint
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addWaypoint
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Adding waypoint: Informatics Forum
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Waypoint added to stage1
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp endNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp endNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: endNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Entering
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Success
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp startNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp startNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: startNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.ControllerTest testCreateEndPremature
+Nov 22, 2017 2:38:39 AM tourguide.ControllerTest testCreateEndPremature
 INFO: 
 #############################################################
 TESTCASE: testCreateEndPremature
 #############################################################
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp startNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp startNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: startNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 300.0  North: -500.0
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addLeg
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addLeg
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addLeg
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addLeg
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addLeg
 FINEST: Adding leg: Start at NE corner of George Square
 
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp endNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp endNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: endNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Entering
-Nov 22, 2017 2:28:36 AM tourguide.ControllerTest browsingTwoTours
+Nov 22, 2017 2:38:39 AM tourguide.ControllerTest browsingTwoTours
 INFO: 
 #############################################################
 TESTCASE: browsingTwoTours
 #############################################################
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp startNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp startNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: startNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 300.0  North: -500.0
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addLeg
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addLeg
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addLeg
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addLeg
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addLeg
 FINEST: Adding leg: Start at NE corner of George Square
 
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addWaypoint
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addWaypoint
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Adding waypoint: Informatics Forum
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Waypoint added to stage1
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp endNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp endNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: endNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Entering
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Success
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp startNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp startNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: startNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: -500.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addWaypoint
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addWaypoint
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Adding waypoint: Edinburgh Castle
 
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Waypoint added to stage1
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addLeg
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addLeg
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addLeg
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addLeg
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addLeg
 FINEST: Adding leg: Royal Mile
 
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp endNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp endNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: endNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 1000.0  North: 300.0
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addWaypoint
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addWaypoint
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Adding waypoint: Holyrood Palace
 
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 1500.0  North: 300.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: checking displacement, this: 1529.7058540778355
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Waypoint added to stage2
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp endNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp endNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: endNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Entering
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Success
-Nov 22, 2017 2:28:36 AM tourguide.ControllerTest testAddOfTwoTours
+Nov 22, 2017 2:38:39 AM tourguide.ControllerTest testAddOfTwoTours
 INFO: 
 #############################################################
 TESTCASE: testAddOfTwoTour
 #############################################################
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp startNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp startNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: startNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 300.0  North: -500.0
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addLeg
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addLeg
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addLeg
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addLeg
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addLeg
 FINEST: Adding leg: Start at NE corner of George Square
 
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addWaypoint
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addWaypoint
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Adding waypoint: Informatics Forum
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Waypoint added to stage1
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp endNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp endNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: endNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Entering
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Success
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp startNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp startNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: startNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: -500.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addWaypoint
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addWaypoint
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Adding waypoint: Edinburgh Castle
 
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Waypoint added to stage1
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addLeg
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addLeg
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addLeg
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addLeg
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addLeg
 FINEST: Adding leg: Royal Mile
 
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp endNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp endNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: endNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 1000.0  North: 300.0
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addWaypoint
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addWaypoint
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Adding waypoint: Holyrood Palace
 
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 1500.0  North: 300.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: checking displacement, this: 1529.7058540778355
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Waypoint added to stage2
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp endNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp endNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: endNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Entering
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Success
-Nov 22, 2017 2:28:36 AM tourguide.ControllerTest testAddTwoPointTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerTest testAddTwoPointTour
 INFO: 
 #############################################################
 TESTCASE: testAddTwoPointTour
 #############################################################
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp startNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp startNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: startNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: -500.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addWaypoint
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addWaypoint
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Adding waypoint: Edinburgh Castle
 
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Waypoint added to stage1
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addLeg
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addLeg
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addLeg
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addLeg
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addLeg
 FINEST: Adding leg: Royal Mile
 
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp endNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp endNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: endNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 1000.0  North: 300.0
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addWaypoint
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addWaypoint
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Adding waypoint: Holyrood Palace
 
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 1500.0  North: 300.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: checking displacement, this: 1529.7058540778355
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Waypoint added to stage2
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp endNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp endNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: endNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Entering
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Success
-Nov 22, 2017 2:28:36 AM tourguide.ControllerTest followOldTownTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerTest followOldTownTour
 INFO: 
 #############################################################
 TESTCASE: followOldTownTour (setup)
 #############################################################
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp startNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp startNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: startNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 300.0  North: -500.0
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addLeg
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addLeg
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addLeg
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addLeg
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addLeg
 FINEST: Adding leg: Start at NE corner of George Square
 
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addWaypoint
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addWaypoint
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Adding waypoint: Informatics Forum
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Waypoint added to stage1
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp endNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp endNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: endNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Entering
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Success
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp startNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp startNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: startNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: -500.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addWaypoint
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addWaypoint
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Adding waypoint: Edinburgh Castle
 
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Waypoint added to stage1
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addLeg
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addLeg
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addLeg
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addLeg
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addLeg
 FINEST: Adding leg: Royal Mile
 
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp endNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp endNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: endNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 1000.0  North: 300.0
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addWaypoint
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addWaypoint
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Adding waypoint: Holyrood Palace
 
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 1500.0  North: 300.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: checking displacement, this: 1529.7058540778355
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Waypoint added to stage2
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp endNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp endNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: endNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Entering
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Success
-Nov 22, 2017 2:28:36 AM tourguide.ControllerTest followOldTownTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerTest followOldTownTour
 INFO: 
 #############################################################
 TESTCASE: followOldTownTour (primary)
 #############################################################
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode <init>
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode <init>
 FINER: Tour: T2,  waypointRadius: 10.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 0.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode setLocation
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode setLocation
 FINER: Entering with location(e: 0.0, n: 0.0)
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: -500.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode setLocation
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode setLocation
 FINEST: is current stage final: false
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getDisplacementToStage
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getDisplacementToStage
 FINER: nextStage.waypoint null
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getDisplacementToStage
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getDisplacementToStage
 FINEST: stage: 0, nextStage: Stage{type=FIRST, waypoint=null, leg=Leg{} Node{annotation=DEFAULT}}
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowLeg: DEFAULT
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: -500.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowBearing: bearing(270.0), distance(500.0)
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getDisplacementToStage
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getDisplacementToStage
 FINER: nextStage.waypoint null
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getDisplacementToStage
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getDisplacementToStage
 FINEST: stage: 0, nextStage: Stage{type=FIRST, waypoint=null, leg=Leg{} Node{annotation=DEFAULT}}
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowLeg: DEFAULT
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: -500.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowBearing: bearing(270.0), distance(500.0)
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getDisplacementToStage
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getDisplacementToStage
 FINER: nextStage.waypoint null
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getDisplacementToStage
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getDisplacementToStage
 FINEST: stage: 0, nextStage: Stage{type=FIRST, waypoint=null, leg=Leg{} Node{annotation=DEFAULT}}
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowLeg: DEFAULT
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: -500.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowBearing: bearing(270.0), distance(500.0)
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: -490.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode setLocation
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode setLocation
 FINER: Entering with location(e: -490.0, n: 0.0)
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: -10.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode setLocation
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode setLocation
 FINE: stage advanced to 1 with displacement(e: -10.0, n: 0.0)
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode setLocation
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode setLocation
 FINEST: is current stage final: false
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: -10.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowWaypoint: Edinburgh Castle
 
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowLeg: Royal Mile
 
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 1490.0  North: 300.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowBearing: bearing(78.61613752892785), distance(1519.9013125857875)
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: -10.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowWaypoint: Edinburgh Castle
 
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowLeg: Royal Mile
 
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 1490.0  North: 300.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowBearing: bearing(78.61613752892785), distance(1519.9013125857875)
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: -10.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowWaypoint: Edinburgh Castle
 
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowLeg: Royal Mile
 
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 1490.0  North: 300.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowBearing: bearing(78.61613752892785), distance(1519.9013125857875)
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: -10.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowWaypoint: Edinburgh Castle
 
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowLeg: Royal Mile
 
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 1490.0  North: 300.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowBearing: bearing(78.61613752892785), distance(1519.9013125857875)
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 900.0  North: 300.0
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode setLocation
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode setLocation
 FINER: Entering with location(e: 900.0, n: 300.0)
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 100.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode setLocation
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode setLocation
 FINEST: is current stage final: false
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: -1400.0  North: -300.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowLeg: Royal Mile
 
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 100.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowBearing: bearing(90.0), distance(100.0)
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: -1400.0  North: -300.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowLeg: Royal Mile
 
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 100.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowBearing: bearing(90.0), distance(100.0)
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: -1400.0  North: -300.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowLeg: Royal Mile
 
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 100.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowBearing: bearing(90.0), distance(100.0)
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 1000.0  North: 300.0
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode setLocation
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode setLocation
 FINER: Entering with location(e: 1000.0, n: 300.0)
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 0.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode setLocation
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode setLocation
 FINE: stage advanced to 2 with displacement(e: 0.0, n: 0.0)
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode setLocation
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode setLocation
 FINEST: is current stage final: true
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp setLocation
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp setLocation
 INFO: reached end of tour
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 0.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowWaypoint: Holyrood Palace
 
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 0.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowWaypoint: Holyrood Palace
 
-Nov 22, 2017 2:28:36 AM tourguide.ControllerTest testCreateWhilstBrowseOverview
+Nov 22, 2017 2:38:39 AM tourguide.ControllerTest testCreateWhilstBrowseOverview
 INFO: 
 #############################################################
 TESTCASE: testCreateWhilstBrowseOverview
 #############################################################
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp startNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp startNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: startNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.ControllerTest testAddOnePointTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerTest testAddOnePointTour
 INFO: 
 #############################################################
 TESTCASE: testAddOnePointTour
 #############################################################
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp startNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp startNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: startNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 300.0  North: -500.0
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addLeg
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addLeg
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addLeg
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addLeg
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addLeg
 FINEST: Adding leg: Start at NE corner of George Square
 
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addWaypoint
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addWaypoint
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Adding waypoint: Informatics Forum
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Waypoint added to stage1
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp endNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp endNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: endNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Entering
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Success
-Nov 22, 2017 2:28:36 AM tourguide.ControllerTest testCreateMinimum
+Nov 22, 2017 2:38:39 AM tourguide.ControllerTest testCreateMinimum
 INFO: 
 #############################################################
 TESTCASE: testCreateMinimum
 #############################################################
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp startNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp startNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: startNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp endNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp endNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: endNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 300.0  North: -500.0
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addLeg
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addLeg
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addLeg
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addLeg
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addLeg
 FINEST: Adding leg: Start at NE corner of George Square
 
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp endNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp endNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: endNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Entering
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addWaypoint
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addWaypoint
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Adding waypoint: Informatics Forum
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Waypoint added to stage1
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp endNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp endNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: endNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Entering
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Success
-Nov 22, 2017 2:28:36 AM tourguide.ControllerTest testFollowEndPremature
+Nov 22, 2017 2:38:39 AM tourguide.ControllerTest testFollowEndPremature
 INFO: 
 #############################################################
 TESTCASE: testFollowEndPremature (setup)
 #############################################################
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp startNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp startNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: startNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 300.0  North: -500.0
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addLeg
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addLeg
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addLeg
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addLeg
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addLeg
 FINEST: Adding leg: Start at NE corner of George Square
 
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addWaypoint
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addWaypoint
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Adding waypoint: Informatics Forum
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Waypoint added to stage1
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp endNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp endNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: endNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Entering
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Success
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp startNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp startNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: startNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: -500.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addWaypoint
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addWaypoint
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Adding waypoint: Edinburgh Castle
 
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Waypoint added to stage1
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addLeg
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addLeg
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addLeg
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addLeg
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addLeg
 FINEST: Adding leg: Royal Mile
 
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp endNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp endNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: endNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 1000.0  North: 300.0
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp addWaypoint
 FINE: 
 -------------------------------------------------------------
 MESSAGE: addWaypoint
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Adding waypoint: Holyrood Palace
 
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 1500.0  North: 300.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: checking displacement, this: 1529.7058540778355
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode addWaypoint
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode addWaypoint
 FINEST: Waypoint added to stage2
-Nov 22, 2017 2:28:36 AM tourguide.ControllerImp endNewTour
+Nov 22, 2017 2:38:39 AM tourguide.ControllerImp endNewTour
 FINE: 
 -------------------------------------------------------------
 MESSAGE: endNewTour
 -------------------------------------------------------------
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Entering
-Nov 22, 2017 2:28:36 AM tourguide.CreateMode finishTour
+Nov 22, 2017 2:38:39 AM tourguide.CreateMode finishTour
 FINEST: Success
-Nov 22, 2017 2:28:36 AM tourguide.ControllerTest testFollowEndPremature
+Nov 22, 2017 2:38:39 AM tourguide.ControllerTest testFollowEndPremature
 INFO: 
 #############################################################
 TESTCASE: testFollowEndPremature (primary)
 #############################################################
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode <init>
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode <init>
 FINER: Tour: T2,  waypointRadius: 10.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 0.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode setLocation
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode setLocation
 FINER: Entering with location(e: 0.0, n: 0.0)
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: -500.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode setLocation
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode setLocation
 FINEST: is current stage final: false
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getDisplacementToStage
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getDisplacementToStage
 FINER: nextStage.waypoint null
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getDisplacementToStage
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getDisplacementToStage
 FINEST: stage: 0, nextStage: Stage{type=FIRST, waypoint=null, leg=Leg{} Node{annotation=DEFAULT}}
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowLeg: DEFAULT
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: -500.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowBearing: bearing(270.0), distance(500.0)
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getDisplacementToStage
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getDisplacementToStage
 FINER: nextStage.waypoint null
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getDisplacementToStage
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getDisplacementToStage
 FINEST: stage: 0, nextStage: Stage{type=FIRST, waypoint=null, leg=Leg{} Node{annotation=DEFAULT}}
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowLeg: DEFAULT
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: -500.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowBearing: bearing(270.0), distance(500.0)
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getDisplacementToStage
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getDisplacementToStage
 FINER: nextStage.waypoint null
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getDisplacementToStage
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getDisplacementToStage
 FINEST: stage: 0, nextStage: Stage{type=FIRST, waypoint=null, leg=Leg{} Node{annotation=DEFAULT}}
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowLeg: DEFAULT
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: -500.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowBearing: bearing(270.0), distance(500.0)
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: -490.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode setLocation
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode setLocation
 FINER: Entering with location(e: -490.0, n: 0.0)
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: -10.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode setLocation
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode setLocation
 FINE: stage advanced to 1 with displacement(e: -10.0, n: 0.0)
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode setLocation
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode setLocation
 FINEST: is current stage final: false
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: -10.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowWaypoint: Edinburgh Castle
 
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowLeg: Royal Mile
 
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 1490.0  North: 300.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowBearing: bearing(78.61613752892785), distance(1519.9013125857875)
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: -10.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowWaypoint: Edinburgh Castle
 
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowLeg: Royal Mile
 
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 1490.0  North: 300.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowBearing: bearing(78.61613752892785), distance(1519.9013125857875)
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: -10.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowWaypoint: Edinburgh Castle
 
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowLeg: Royal Mile
 
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 1490.0  North: 300.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowBearing: bearing(78.61613752892785), distance(1519.9013125857875)
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: -10.0  North: 0.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowWaypoint: Edinburgh Castle
 
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowLeg: Royal Mile
 
-Nov 22, 2017 2:28:36 AM tourguide.Displacement <init>
+Nov 22, 2017 2:38:39 AM tourguide.Displacement <init>
 FINER: East: 1490.0  North: 300.0
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.FollowMode getOutput
+Nov 22, 2017 2:38:39 AM tourguide.FollowMode getOutput
 FINEST: Adding Chunk.FollowBearing: bearing(78.61613752892785), distance(1519.9013125857875)
-Nov 22, 2017 2:28:36 AM tourguide.Displacement bearing
+Nov 22, 2017 2:38:39 AM tourguide.Displacement bearing
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.Displacement distance
+Nov 22, 2017 2:38:39 AM tourguide.Displacement distance
 FINER: Entering
-Nov 22, 2017 2:28:36 AM tourguide.ControllerTest noTours
+Nov 22, 2017 2:38:39 AM tourguide.ControllerTest noTours
 INFO: 
 #############################################################
 TESTCASE: noTours
