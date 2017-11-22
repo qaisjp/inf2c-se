@@ -85,16 +85,6 @@ public class Stage {
         return type == FINAL;
     }
 
-    public List<Node> getNodes() {
-        if (type == FIRST) {
-            return Arrays.asList(leg);
-        } else if (type == FINAL) {
-            return Arrays.asList(waypoint);
-        }
-
-        return Arrays.asList(waypoint, leg);
-    }
-
     public static int countWaypoints(ArrayList<Stage> stages) {
         int count = 0;
         for (Stage s : stages) {
