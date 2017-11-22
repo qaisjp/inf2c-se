@@ -2,8 +2,6 @@ package tourguide;
 
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 import static tourguide.Stage.StageType.*;
 
