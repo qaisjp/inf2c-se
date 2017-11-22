@@ -65,6 +65,12 @@ public class ControllerImp implements Controller {
             return new Status.Error("startNewTour only valid if in browse tour mode");
         }
 
+        for (Tour t : tours) {
+            if (t.getID() == id) {
+                return new Status.Error("tour with ID already exists");
+            }
+        }
+
         currentMode = new CreateMode(id, title, annotation, waypointSeparation);
 
         return Status.OK;

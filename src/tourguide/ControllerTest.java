@@ -398,4 +398,18 @@ public class ControllerTest {
 
     }
 
+    @Test
+    public void testCreateSameID() {
+        logger.info(makeBanner("testCreateSameID"));
+
+        addOnePointTour();
+
+        checkStatusNotOK(controller.startNewTour(
+                "T1",
+                "Informatics at UoE",
+                ann("The Informatics Forum and Appleton Tower\n"))
+        );
+
+    }
+
 }
