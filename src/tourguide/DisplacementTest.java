@@ -119,7 +119,7 @@ public class DisplacementTest {
             for (int east = 0; east < 100; east++) {
                 double bearing = new Displacement(east, north).bearing();
 
-                assertTrue("all bearings should be gteq 0 and lteq 360", (bearing >= 0) && (bearing <= 360));
+                assertTrue("all bearings should be gteq 0 and lteq 360", (bearing >= 0) && (bearing < 360));
             }
         }
     }
