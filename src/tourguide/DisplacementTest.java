@@ -115,8 +115,8 @@ public class DisplacementTest {
 
     @Test
     public void testValidBearings() {
-        for (int north = 0; north < 100; north++) {
-            for (int east = 0; east < 100; east++) {
+        for (int north = -100; north < 100; north++) {
+            for (int east = -100; east < 100; east++) {
                 double bearing = new Displacement(east, north).bearing();
 
                 assertTrue("all bearings should be gteq 0 and lteq 360", (bearing >= 0) && (bearing < 360));
@@ -128,7 +128,7 @@ public class DisplacementTest {
     public void testNorthDistances() {
         for (int north = -100; north < 100; north++) {
             double distance = new Displacement(0, north).distance();
-            assertEquals("Distances where (east=0) should be equal to north", distance, north, EPS);
+            assertEquals("Distances where (east=0) should be equal to |north|", distance, Math.abs(north), EPS);
         }
     }
 
@@ -136,7 +136,7 @@ public class DisplacementTest {
     public void testEastDistances() {
         for (int east = -100; east < 100; east++) {
             double distance = new Displacement(east, 0).distance();
-            assertEquals("Distances where (north=0) should be equal to east", distance, east, EPS);
+            assertEquals("Distances where (north=0) should be equal to |east|", distance, Math.abs(east), EPS);
         }
     }
 
