@@ -412,4 +412,29 @@ public class ControllerTest {
 
     }
 
+    @Test
+    public void testBrowseSortedID() {
+        logger.info(makeBanner("testBrowseSortedID"));
+
+
+        checkStatus(controller.startNewTour(
+                "T3",
+                "Meh third",
+                ann("Blahtown\n"))
+        );
+        controller.setLocation(300, -500);
+        checkStatus(controller.addLeg(ann("Start at Terminal 3\n")));
+        checkStatus(controller.addWaypoint(ann("Run away")));
+        checkStatus(controller.endNewTour());
+
+        addOnePointTour();
+        addTwoPointTour();
+
+        Chunk.BrowseOverview overview = new Chunk.BrowseOverview();
+        overview.addIdAndTitle("T1", "Informatics at UoE");
+        overview.addIdAndTitle("T2", "Old Town");
+        overview.addIdAndTitle("T3", "Meh third");
+        checkOutput(1, 0, overview);
+    }
+
 }

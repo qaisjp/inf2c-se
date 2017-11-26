@@ -19,7 +19,10 @@ public class BrowseOverviewMode extends Mode {
     List<Chunk> getOutput() {
         Chunk.BrowseOverview overview = new Chunk.BrowseOverview();
 
-        for (Tour t : tours) {
+        ArrayList<Tour> sortedTours = new ArrayList<>(tours);
+        sortedTours.sort(Comparator.comparing(Tour::getID));
+
+        for (Tour t : sortedTours) {
             overview.addIdAndTitle(t.getID(), t.getTitle());
         }
 
